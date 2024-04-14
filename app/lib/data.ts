@@ -54,8 +54,6 @@ export async function fetchLatestInvoices() {
 
 export async function fetchCardData() {
   noStore();
-  console.log('Fetching card data...');
-  await new Promise((resolve) => setTimeout(resolve, 13000));
 
   try {
     // You can probably combine these into a single SQL query
